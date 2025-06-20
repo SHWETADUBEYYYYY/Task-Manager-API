@@ -45,7 +45,7 @@ Click on any endpoint → Try it out → Enter input → Execute to send a live 
 -H "Content-Type: application/json" \
 -d '{"title": "Test from curl"}')
 - ❌ Delete a Task- 
-(curl -X DELETE https://task-manager-api-qn4a.onrender.com/api/tasks/<665c1e9d4c8a3f1a96b8b8a1>)
+(curl -X DELETE https://task-manager-api-qn4a.onrender.com/api/tasks/665c1e9d4c8a3f1a96b8b8a1)
 
 🔹 3. From the Frontend
 - ✍️ Type a task in the input field
