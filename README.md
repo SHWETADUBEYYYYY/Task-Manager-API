@@ -15,7 +15,6 @@ A simple full-stack **Task Manager App** built using:
 |----------------|----------------------------------------------------------------------|
 | ✅ Backend API | [https://task-manager-api-qn4a.onrender.com/api/tasks](https://task-manager-api-qn4a.onrender.com/api/tasks) |
 | 📘 Swagger Docs | [https://task-manager-api-qn4a.onrender.com/api-docs](https://task-manager-api-qn4a.onrender.com/api-docs) |
-| 🌐 Frontend     | _[Add your Netlify or GitHub Pages link here once deployed]_        |
 
 ---
 
@@ -31,14 +30,5 @@ All API routes use the base:
 | PUT    | `/api/tasks/:id`    | Update an existing task by ID        |
 | DELETE | `/api/tasks/:id`    | Delete a task by ID                  |
 
-### 🧪 Sample API Request (POST)
 
-**Endpoint:**  
-`POST /api/tasks`
 
-**Body (JSON):**
-
-```json
-{
-  "title": "Finish frontend"
-}
