@@ -1,59 +1,44 @@
-# 📝 Task Manager API
+# 📋 Task Manager API + Frontend
 
-A simple RESTful API built with **Node.js**, **Express**, and **MongoDB** that allows users to **create**, **read**, **update**, and **delete** (CRUD) tasks. Swagger UI is integrated for easy API testing and documentation.
+A simple full-stack **Task Manager App** built using:
 
----
-
-## 🌐 Live Demo
-
-- 🚀 API Base URL: [`https://task-manager-api-qn4a.onrender.com/api/tasks`](https://task-manager-api-qn4a.onrender.com/api/tasks)
-- 📘 Swagger Docs: [`https://task-manager-api-qn4a.onrender.com/api-docs`](https://task-manager-api-qn4a.onrender.com/api-docs)
+- 🖥️ Node.js + Express.js for the backend API
+- 🗃️ MongoDB as the database
+- 🌐 HTML, CSS, and JavaScript for the frontend
+- 📄 Swagger UI for live API documentation
 
 ---
 
-## 🔧 Features
+## 🔗 Live Links
 
-- Add a task ✅
-- View all tasks ✅
-- Update a task ✅
-- Delete a task ✅
-- Swagger documentation ✅
-- MongoDB integration via Mongoose ✅
-
----
-
-## 📦 Tech Stack
-
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (via MongoDB Atlas)
-- **Documentation**: Swagger (OpenAPI 3.0)
-- **Deployment**: Render
+| Part           | URL                                                                 |
+|----------------|----------------------------------------------------------------------|
+| ✅ Backend API | [https://task-manager-api-qn4a.onrender.com/api/tasks](https://task-manager-api-qn4a.onrender.com/api/tasks) |
+| 📘 Swagger Docs | [https://task-manager-api-qn4a.onrender.com/api-docs](https://task-manager-api-qn4a.onrender.com/api-docs) |
+| 🌐 Frontend     | _[Add your Netlify or GitHub Pages link here once deployed]_        |
 
 ---
 
-## 🛠️ API Endpoints
+## 📌 API Endpoints and Functionality
 
-| Method | Endpoint             | Description          |
-|--------|----------------------|----------------------|
-| GET    | `/api/tasks`         | Get all tasks        |
-| POST   | `/api/tasks`         | Create a new task    |
-| PUT    | `/api/tasks/:id`     | Update a task        |
-| DELETE | `/api/tasks/:id`     | Delete a task        |
+All API routes use the base:  
+`https://task-manager-api-qn4a.onrender.com/api/tasks`
 
----
+| Method | Endpoint            | Functionality                        |
+|--------|---------------------|--------------------------------------|
+| GET    | `/api/tasks`        | Fetch all tasks from the database    |
+| POST   | `/api/tasks`        | Create a new task                    |
+| PUT    | `/api/tasks/:id`    | Update an existing task by ID        |
+| DELETE | `/api/tasks/:id`    | Delete a task by ID                  |
 
-## 🧪 Swagger Documentation
+### 🧪 Sample API Request (POST)
 
-Test your API using the interactive Swagger UI:
+**Endpoint:**  
+`POST /api/tasks`
 
-> 🔗 [`https://task-manager-api-qn4a.onrender.com/api-docs`](https://task-manager-api-qn4a.onrender.com/api-docs)
+**Body (JSON):**
 
----
-
-## 🚀 Getting Started (Local Setup)
-
-1. **Clone this repo**
-
-```bash
-git clone https://github.com/SHWETADUBEYYYYY/Task-Manager-API.git
-cd Task-Manager-API
+```json
+{
+  "title": "Finish frontend"
+}
